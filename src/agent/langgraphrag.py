@@ -1,5 +1,5 @@
 import os,getpass
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter your openai API key: ")
 #os.environ["LANGSMITH_TRACING"] = "true"
 
 from langchain_community.embeddings import FakeEmbeddings
