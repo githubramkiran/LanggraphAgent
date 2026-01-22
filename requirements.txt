@@ -5,3 +5,9 @@ langchain-google-genai
 langchain-community
 pypdf
 pycryptodome
+langgraph 
+langchain_core  
+requests 
+httpx 
+fastapi 
+uvicorn
