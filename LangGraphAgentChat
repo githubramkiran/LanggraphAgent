@@ -1,3 +1,17 @@
+# /// script
+# requires-python = ">=3.13.0"
+# dependencies = [
+# "langchain",
+# "langgraph",
+#"langchain_core",
+#"langchain_community",
+#"requests",
+#"httpx",
+#"fastapi",
+#"uvicorn",
+#"uv",
+# ]
+# ///
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from langgraph.graph import StateGraph, MessagesState, START, END
